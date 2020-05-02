@@ -17,7 +17,9 @@ public class MathematicalFunction10c {
     }
 
     static double getX(double a, double b, double c) {
-        double x = (-b + Math.sqrt(b * b - (4 * a * c))) / 2 * a;
+        double x = (-b + Math.sqrt(b*b-4*a*c))/2*a;
         return x;
+
+
     }
 }
