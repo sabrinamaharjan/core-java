@@ -8,7 +8,6 @@ public class Palindrome_38 {
         System.out.println(result);
     }
 
-
     public boolean checkPalindrome(String name) {
         // step1: get reverse
         //compare original string and reverse string
