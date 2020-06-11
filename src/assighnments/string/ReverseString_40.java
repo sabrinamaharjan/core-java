@@ -10,7 +10,6 @@ public class ReverseString_40 {
         final String result = reverseString_40.getReverse("sabrina");
         System.out.println(result);
     }
-
     public String getReverse(String input) {
         //String reverse = "";
         StringBuilder stringBuilder = new StringBuilder();
