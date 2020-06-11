@@ -7,12 +7,11 @@ public class FourFunctionCalculator_20 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter x:");
         int x = scanner.nextInt();
-        System.out.println("enter y:");
+        System.out.println("Enter y:");
         int y = scanner.nextInt();
-        System.out.println("enter choice among (+ , - , * or / ):");
+        System.out.println("Enter choice among (+ , - , * or / ):");
         char operator = scanner.next().charAt(0);
         getCalculator(x, y, operator);
-
     }
 
     static void getCalculator(int x, int y, char operator) {
